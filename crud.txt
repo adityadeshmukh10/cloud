@@ -1,0 +1,25 @@
+ npm init;index.js;  db.createCollection('Profile'); db,profile.insertOne({name:"ro"}); npm i express ; npm i mongodb ; code
+ ------------------------------------------------------------------
+
+node js static code :
+
+const express = require('express');
+const app=express();
+
+app.use(express.static('public'))
+
+app.listen(4000,()=>{
+   console.log("server is starte d");
+})
+
+steps: 
+npm init;  index.js; npm insytall express --save; 
+
+-------------------------------------------------------------------
+
+angular:npm install -g @angular/cli@latest;  ng new foldername; y; css; code; ng serve
+
+---------------------------------------------------------------------------
+
+node filename.js;  docker vuild -t foldername;  docker images
+
